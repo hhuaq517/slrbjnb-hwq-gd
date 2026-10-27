@@ -1,0 +1,21 @@
+# 申论日报 · 依赖清单
+# 安装：python3 -m pip install -r requirements.txt
+# 装完 Chromium 还要单独下一次：python3 -m playwright install chromium
+#
+# 全部依赖只在 scripts/build.py 里用到，且都是函数内导入（不跑就不占内存）。
+
+# ── 必需 ──────────────────────────────────────────────────────────
+playwright>=1.40        # 无头 Chromium 排版：HTML → PDF / PNG 全靠它
+pillow>=9.0             # 长图缩放：截图按 --px 重采样，LANCZOS 重采样
+
+# ── 可选 ──────────────────────────────────────────────────────────
+# pymupdf>=1.23         # 自己校验 PDF（页数/尺寸/可检索字符数）时用。
+                        # build.py 不 import 它，装上也不影响出图。
+#
+# 说明：其余 import 全是标准库 —— argparse / asyncio / json / os / re /
+#       shutil / sys / tempfile，不需要额外安装。
+#
+# 字体不在 pip 里：
+#   · 正文  PingFang SC      macOS 自带；Windows / Linux 需自备，或在 content.json 里设 font_body
+#   · 标题  庞门正道标题体    可选，缺了自动回落 Hiragino Sans GB → PingFang SC
+#   · 别用宋体              Chromium 下 Songti SC 会出字体映射乱码

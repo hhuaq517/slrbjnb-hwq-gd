@@ -1,0 +1,41 @@
+MIT License
+
+Copyright (c) 2026 黄文钦 (hwq)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+────────────────────────────────────────────────────────────────────────
+附加说明（Additional Notes）
+
+本许可覆盖本仓库内的代码与文档。以下内容不在授权范围内：
+
+1. 商标与标识
+   shenlun-daily/assets/offcn.png 为品牌标识，仅用于本仓库示例产出，
+   随 MIT 一并分发不代表授予任何商标使用权。二次分发时请替换为你自己的标识，
+   或将 content.json 的 meta.logo 置空（省略即不显示）。
+
+2. 字体
+   仓库不附带任何字体文件。文档中提及的
+   「庞门正道标题体」「方正黑体简体」等字体需使用者自行取得相应授权。
+   正文默认字体 PingFang SC 由操作系统提供，随系统许可使用。
+
+3. 示例内容
+   shenlun-daily/examples/ 下的 JSON 为版式演示样例，其中的时评摘要与
+   时政条目改编自公开报道，仅作排版演示，不构成任何备考结论或报考建议。
+   正式使用请以官方通稿与你自己的稿件为准。
